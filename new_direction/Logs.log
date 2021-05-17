@@ -1,0 +1,367 @@
+==========
+/01:51:54/ [INFO] LOGS 
+==========
+/01:52:00/ [LOADED] remove_chelix successful execute. 
+==========
+==========
+/01:52:19/ [ERROR] Function [add_chelix] Loading error: 
+ 'float' object has no attribute 'split' in line 19 
+==========
+==========
+/01:52:44/ [INFO] add 
+==========
+/01:52:56/ [ERROR] Function [add_chelix] Loading error: 
+ 'float' object has no attribute 'split' in line 19 
+==========
+==========
+/01:52:44/ [INFO] remove 
+==========
+/01:52:57/ [LOADED] remove_chelix successful execute. 
+==========
+==========
+/01:53:16/ [INFO] add 
+==========
+/01:53:18/ [ERROR] Function [add_chelix] Loading error: 
+ 'float' object has no attribute 'split' in line 19 
+==========
+==========
+/01:53:16/ [INFO] remove 
+==========
+/01:53:20/ [LOADED] remove_chelix successful execute. 
+==========
+==========
+/01:53:48/ [INFO] add 
+==========
+/01:53:54/ [ERROR] Function [add_chelix] Loading error: 
+ 'float' object has no attribute 'split' in line 20 
+==========
+==========
+/01:54:20/ [INFO] remove 
+==========
+/01:54:24/ [LOADED] remove_chelix successful execute. 
+==========
+==========
+/07:29:42/ [INFO] New Report 
+==========
+/07:30:20/ [ERROR] Function [_report_call] Loading error: 
+ _report_call() missing 1 required positional argument: 'lower' in line 19 
+==========
+==========
+/07:31:08/ [INFO] New Report 
+==========
+/07:31:11/ [ERROR] Function [_report_call] Loading error: 
+ no such table: Report in line 19 
+==========
+==========
+/07:31:35/ [INFO] New Report 
+==========
+/07:31:39/ [ERROR] Function [_report_call] Loading error: 
+ 0 in line 19 
+==========
+==========
+/07:33:01/ [INFO] New Report 
+==========
+/07:33:05/ [ERROR] Function [_report_call] Loading error: 
+ list index out of range in line 19 
+==========
+==========
+/07:33:45/ [INFO] New Report 
+==========
+/07:33:48/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 36, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 35, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 49, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:34:21/ [INFO] New Report 
+==========
+/07:34:25/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 36, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 35, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 49, in chatname_and_username
+    print(vk.users.get(user_ids=self.user_id)["response"][0])
+IndexError: list index out of range
+ 
+==========
+==========
+/07:34:43/ [INFO] New Report 
+==========
+/07:34:48/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 36, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 35, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 50, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:35:10/ [INFO] New Report 
+==========
+/07:35:13/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 36, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 35, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 51, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:35:53/ [INFO] New Report 
+==========
+/07:35:58/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 36, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 34, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 50, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:36:07/ [INFO] New Report 
+==========
+/07:36:12/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 36, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 34, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 50, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:37:48/ [INFO] New Report 
+==========
+/07:37:52/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 38, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 34, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 50, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:38:07/ [INFO] New Report 
+==========
+/07:38:10/ [ERROR] Function [_report_call] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\lastproject\legacy_code\logger.py", line 19, in logger_wrap
+    returned = fn(*args)
+  File "C:/Users/DarkLorian/PycharmProjects/pythonProject/projects/new_direction/func_handler.py", line 38, in _report_call
+    methods.methods().report(lower)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 34, in report
+    lost = (Id, self.chatname_and_username(0), pers)
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\methods.py", line 50, in chatname_and_username
+    return f'{vk.users.get(user_ids=self.user_id)["response"][0]["first_name"]} {vk.users.get(user_ids=self.user_id)["response"][0]["last_name"]}'
+IndexError: list index out of range
+ 
+==========
+==========
+/07:38:48/ [INFO] New Report 
+==========
+/07:38:52/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:39:19/ [INFO] New Report 
+==========
+/07:39:25/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:39:41/ [INFO] New Report 
+==========
+/07:39:46/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:40:55/ [INFO] New Report 
+==========
+/07:41:00/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:41:16/ [INFO] New Report 
+==========
+/07:41:24/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:42:13/ [INFO] remove 
+==========
+/07:42:13/ [INFO] New Report 
+==========
+/07:42:27/ [INFO] New Report 
+==========
+/07:42:30/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:42:53/ [INFO] remove 
+==========
+/07:42:53/ [INFO] New Report 
+==========
+/07:43:00/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:43:03/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:43:06/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:43:13/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:43:24/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:43:33/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:48:02/ [INFO] remove 
+==========
+/07:48:02/ [INFO] New Report 
+==========
+/07:48:02/ [INFO] New Report 
+==========
+/07:48:55/ [INFO] remove 
+==========
+/07:48:55/ [INFO] New Report 
+==========
+/07:48:55/ [INFO] New Report 
+==========
+/07:49:00/ [ERROR] Function [remove_chelix] Loading error: 
+ Traceback (most recent call last):
+  File "C:\Users\DarkLorian\PycharmProjects\pythonProject\projects\new_direction\logger.py", line 17, in logger_wrap
+    returned = fn(*args)
+TypeError: remove_chelix() takes 1 positional argument but 3 were given
+ 
+==========
+==========
+/07:49:00/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:49:00/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:13/ [INFO] remove 
+==========
+/07:49:13/ [INFO] New Report 
+==========
+/07:49:13/ [INFO] New Report 
+==========
+/07:49:17/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:19/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:21/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:23/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:26/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:28/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:34/ [LOADED] _report_call successful execute. 
+==========
+==========
+/07:49:34/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:49:54/ [INFO] remove 
+==========
+/07:49:54/ [INFO] New Report 
+==========
+/07:49:54/ [INFO] New Report 
+==========
+/07:50:01/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:50:03/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:50:06/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:50:08/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:50:10/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:50:12/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:52:36/ [INFO] remove 
+==========
+/07:52:36/ [INFO] New Report 
+==========
+/07:52:36/ [INFO] New Report 
+==========
+/07:53:49/ [INFO] remove 
+==========
+/07:53:49/ [INFO] New Report 
+==========
+/07:53:49/ [INFO] New Report 
+==========
+/07:53:49/ [INFO] All reports 
+==========
+/07:53:52/ [LOADED] _allreport_call successful execute. 
+==========
+==========
+/07:54:00/ [INFO] remove 
+==========
+/07:54:00/ [INFO] New Report 
+==========
+/07:54:00/ [INFO] New Report 
+==========
+/07:54:00/ [INFO] All reports 
+==========
+/07:54:03/ [LOADED] _allreport_call successful execute. 
+==========
+==========
+/07:54:06/ [LOADED] _delete_report_call successful execute. 
+==========
+==========
+/07:54:51/ [LOADED] _allreport_call successful execute. 
+==========
+==========
+/07:54:51/ [LOADED] _allreport_call successful execute. 
+==========
