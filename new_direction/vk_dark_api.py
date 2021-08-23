@@ -2,7 +2,7 @@ import requests
 import Exceptions
 import re
 
-token = '8948f23b6b80f2088c43fc0577a0c394e956d10f457309606f900939883bbb4fce648f709f19d489e7140'
+token = ''
 
 vk_api_url = "https://api.vk.com/method/"
 
